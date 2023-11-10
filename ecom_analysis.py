@@ -15,7 +15,6 @@ customer_df = pd.read_csv("E-Commerce Public Dataset/customers_dataset.csv")
 #product_df = pd.read_csv("E-Commerce Public Dataset/products_dataset.csv")
 seller_df = pd.read_csv("E-Commerce Public Dataset/sellers_dataset.csv")
 rfm_df = pd.read_csv("E-Commerce Public Dataset/rfm_df.csv")
-rfm_rank_df = pd.read_csv("E-Commerce Public Dataset/rfm_rank.csv")
 order_items_product_df = pd.read_csv("E-Commerce Public Dataset/order_items_product_df.csv")
 
 st.set_page_config(page_title = "Ecommerce Analysis") 
